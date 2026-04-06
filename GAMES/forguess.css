@@ -1,0 +1,89 @@
+ /*---------------------------guess the number----------------------------*/ 
+body{
+    height:100vh;
+    background-image:url("picture/d.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+    
+}
+  .guess-head{
+    color:#D4AF37;
+    font-size: 60px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
+  }
+  .in {
+    
+   display: flex;
+    justify-content: center;  
+    
+    height: 100vh;
+    padding-top:150px;
+    gap:20px;   
+    
+
+}
+
+  
+  .in input{
+    color:rgb(254, 253, 253);
+    font-size: 20px;
+    width: 30%;
+    border-radius: 10px;
+    border:solid black 5px;
+    background:transparent;
+    height: 50px;
+    
+     
+    
+    
+  }
+  .in input::placeholder{
+    color:rgb(255, 255, 255);
+    font-weight: 100;
+  }
+  
+  .in input:hover {
+    
+    box-shadow: 0 0 25px #000000;
+   
+    transform: scale(1.2);
+}
+.in .who{
+  background: transparent;
+  color: white;
+  border: 5px solid #000000;
+  
+  border-radius: 8px;
+  width:100px;
+  height: 61px;
+ 
+  
+  
+}
+
+
+.msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 47%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(1, 10, 79);
+  border-radius:10px;
+  
+  padding: 15px 25px;
+  color:white;
+  font-size: 30px;
+  border: solid auto 2px;
+
+}

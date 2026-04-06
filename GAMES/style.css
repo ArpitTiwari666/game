@@ -1,0 +1,105 @@
+/*------------------------main page---------------------------------------*/
+body{ margin: 0;
+    height: 100vh;
+
+    background-image: url("picture/image.jpg");
+    background-size: cover;
+    background-position:center;
+}
+.big{font-family:"Press Start 2P", system-ui;
+    text-shadow:7px 7px 10px rgba(0,0,0,0.9),0 0 10px rgba(0,0,0,0.6);
+    font-weight: 400;
+    font-style: normal;
+    color: #ff0000;
+    padding:20px 100px;
+    font-size:60px;
+    text-align:left;
+    animation-name: myanimation;
+    animation-duration:4s;
+    animation-iteration-count: 1;
+    
+
+}
+@keyframes myanimation {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.small{font-family:"Press Start 2P", system-ui;
+    text-shadow:7px 7px 10px rgba(0,0,0,0.9),0 0 10px rgba(0,0,0,0.6);
+    font-weight: 400;
+    font-style: normal;
+    color: #ffbb00;
+    padding:0px 115px;
+    font-size:50px;
+    text-align:left;
+    animation-name: myanimation;
+    animation-duration:4s;
+    animation-iteration-count: 1;
+}
+
+
+.snake-logo img{
+    height:170px;
+    width:auto;
+    border-radius:10px;
+    border: 10px solid black;
+   
+
+}
+.space-shutter img{
+     height:170px;
+    width:auto;
+    border-radius:10px;
+    border: 10px solid black;
+}
+.xo-image img{
+    height:170px;
+    width:auto;
+    border-radius:15px;
+    border: 10px solid black;
+}
+.guess-number img{
+    height:170px;
+    width:auto;
+    border-radius:10px;
+    border: 10px solid black;
+
+}
+.arpit{
+    display:grid;
+    margin:50px;
+    grid-template-columns: auto auto;
+   
+    justify-content: center;
+    gap:30px;
+    align-items: center;
+    animation-name: anushka;
+    animation-duration:2s;
+
+    
+}
+@keyframes anushka {
+    from {
+        transform: translateX(900px);
+        opacity:0;
+    }
+    to {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+.arpit img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ffbb00;
+    
+} 
+
+ 
