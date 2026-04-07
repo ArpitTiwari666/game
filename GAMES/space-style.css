@@ -46,14 +46,14 @@ body{
     display: flex;
     gap: 50px;
    position: absolute;
-   top:55%;
+   top:60%;
    left:43.5%;
 }
 .num-box{
     display: flex;
     gap: 110px;
     position: absolute;
-   top:60%;
+   top:65%;
    left:45%;
    
 }
