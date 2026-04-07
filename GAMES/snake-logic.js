@@ -160,6 +160,12 @@ function resetGame() {
   nume.innerText = count;
   cells.forEach(cell => cell.style.background = "#1e1e1e");
   colorRandomCell();
+  score.style.display="block";
+  score.style.color="white";
+  nume.style.color = "white";
+  nume.style.left="52%";
+  nume.style.top="4.3%";
+  nume.style.fontSize="50px";
 
 
   drawSnake();
